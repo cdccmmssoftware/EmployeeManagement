@@ -99,3 +99,4 @@ def delete_employee(id: int):
     conn.commit()
 
     return {"message":"Employee Deleted"}
+
